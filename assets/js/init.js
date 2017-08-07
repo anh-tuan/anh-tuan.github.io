@@ -186,7 +186,7 @@ $(document).ready(function() {
           zoom: 17,
           scrollwheel: false, 
           navigationControl: false,
-          center: new google.maps.LatLng(24.906308,91.870413),
+          center: new google.maps.LatLng(10.7562027,106.6934506),
           styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},
           {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},
           {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},
@@ -204,9 +204,9 @@ $(document).ready(function() {
       var mapElement = document.getElementById('map');
       var map = new google.maps.Map(mapElement, mapOptions);
       var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(24.906308,91.870413),
+          position: new google.maps.LatLng(10.7571606,106.6924141),
           map: map,
-          title: '24 Golden Tower (2nd floor), Amborkhana, Sylhet.!'
+          title: '331 Ben Van Don, Phuong 1, Quan 4, TPHCM.!'
       });
     }
 
